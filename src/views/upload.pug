@@ -6,7 +6,7 @@ html(lang="en")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     title Upload
   body 
-    form(action="/upload", method="post") 
+    form(action="/upload", method="post", enctype="multipart/form-data") 
       h2 Upload a file 
       input(type="file", name="file")
       br

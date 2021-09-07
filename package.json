@@ -2,9 +2,9 @@
   "name": "upload",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
-    "dev": "nodemon --legacy-watch server.js"
+    "dev": "nodemon --legacy-watch src/server.js"
   },
   "keywords": [],
   "author": "",
