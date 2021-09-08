@@ -9,7 +9,8 @@ html(lang="en")
     h1 Uploaded Files
     ul
       each file in files
-        li= file
+        li
+          a(href=`/download/${file.name}`)= file.name
       else 
         h3 No files uploaded
     a(href="/upload") upload file
